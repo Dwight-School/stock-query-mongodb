@@ -18,22 +18,22 @@ Your challenge will be to query the MongoDB to produce a single result or multip
 
 ## Environment Setup
 
-We're going to continue working in your Cloud Shell environment, so clone this repository into your environment as you've done before.
+Clone this repository into your environment (VS Code, Replit, etc.) as you've done before.
 
-You may need to install PyMongo and dnspython in the Cloud Shell IDE to help connect to the MongoDB database:
+You may need to install PyMongo and dnspython in terminal/shell to help connect to the MongoDB database:
 
 ```bash
 sudo pip3 install pymongo
 sudo pip3 install dnspython
 ```
 
-You can also echo these installations to the startup script if you want to install them permanently - ask an Upperline Code team member for support on this if you want to do it. 
+You can also echo these installations to the startup script if you want to install them permanently. 
 
 Be aware that you'll need to start by specifying the name of the database you want to connect to. This database for this lab is called `'stock-prices'`. 
 
 ### Running stocks.py
 
-To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your IDE. Anything you `print()` will be shown in the Terminal, too. Bear in mind that while our intro to MongoDB included being able to SEE the entries on the MongoDB dashboard GUI (graphical user interface), this lab will be done entirely with queries, so you'll ONLY be able to see the content you print to the terminal. 
+To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your IDE (or press run on Replit). Anything you `print()` will be shown in the Terminal, too. Bear in mind that while our intro to MongoDB included being able to SEE the entries on the MongoDB dashboard GUI (graphical user interface), this lab will be done entirely with queries, so you'll ONLY be able to see the content you print to the terminal. 
 
 # Challenges
 
